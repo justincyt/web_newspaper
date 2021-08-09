@@ -1,0 +1,175 @@
+body{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 1000px;
+    margin: 0px auto;
+}
+#menutop{
+    color:white;
+    background-color: black;  
+    height: 40px;
+
+}
+#menutop ul{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+#menutop ul li{
+    display: inline;
+    float: left;
+    list-style: none;
+    font-size: 15px;
+    position: relative;
+
+}
+#menutop ul li a{
+    text-decoration: none;  
+    padding-right: 100px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 70px 0px 70px;
+    margin-right: 1px;
+    
+} 
+#menutop ul li a:hover{
+    color: rgb(114, 209, 209);
+    display: block;
+    background-color:saddlebrown;
+    height: 40px;
+    padding-left: auto;
+    width: auto;
+}
+#banner{
+    height: auto;
+    width: 1000px;
+}
+#banner img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
+
+}
+#main{
+    display: flex;
+    height: 800px;
+    width: 1000px;
+}
+#main .left{
+    float: left;
+    width: 700px;
+    min-height: 500px;
+}
+#main .left ul{
+    padding: 0px;
+    margin: 0px;
+    
+
+}
+#main .left ul li{
+    list-style: none;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    border-bottom: 2px solid rgb(206, 193, 168);
+    float: left;
+    padding-bottom: 10px;
+    clear: left;
+    border-top: 50px;
+
+}
+#main .left ul li img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#main .left ul li h1{
+    margin: 0px;
+    font-size: 15px;
+    padding-left: 10px;
+
+}
+#main .right{
+    
+    float: left;
+    width: 300px;
+    min-height: 300px;
+}
+#main .right h2{
+    font-size: 15px;
+    background-color: rgba(46, 8, 82, 0.829);
+    width: 300px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    text-indent: 20px;
+    line-height: 40px;
+    text-align: center;
+    
+    
+}
+#main .right ul{
+    padding: 0px;
+    margin: 0px;
+
+}
+#main .right ul li{
+    list-style: none;
+    background-color: antiquewhite;
+    
+
+
+}
+#main .right ul li a{
+    text-decoration: none;
+    display: block;
+    line-height: 32px;
+    border-bottom: 1px solid whitesmoke;
+    text-indent: 20px;
+    text-align: center;
+    background-color: rgb(101, 101, 202);
+    padding: 0px 7px 0px 7px;
+
+}
+#main .right ul li a:hover{
+    background-color: brown;
+    color: #000;
+}
+h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: rgb(35, 77, 77);
+    color: brown;
+    text-align: center;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px  rgba(0,0,0,0.2);
+    letter-spacing: .05cm;
+    padding-bottom: 10px;
+}
+h5:hover{
+    color: blue;
+    text-decoration: dodgerblue;
+
+}
+p{
+   font-size: 15px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(75, 49, 16);
+   background-color: rgb(18, 39, 32);
+   text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px  rgba(0,0,0,0.2);
+   
+   text-shadow: blueviolet;
+   letter-spacing: .05cm;
+}
+h1:hover{
+    color:blue;
+}
+
+#footer{
+    background-color: blue;
+    height: 60px;
+    text-align: center;
+    width: 1000px;
+    clear: left;
+    line-height: 60px;
+}
+
